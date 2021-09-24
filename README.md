@@ -49,7 +49,7 @@ for(String element : alpabet) {
     result.add(map.getOrDefault(element, getEmtpyMap(element)));
 }
 return result;
-
+---------------------------------------------------------------------------------------------------------------------------------
 @map 함수 이용 안할 경우 코드
   for(String element : areaList) {
             Map<String,String> resultmap = new HashMap<String,String>();
