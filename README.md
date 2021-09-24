@@ -4,7 +4,7 @@
 
 함수<br>
 |이름|설명|
-|:---|:---:|---:|
+|:---:|:---:|:---:|
 |map.getOrDefault|찾는 키가 존재한다면 찾는 키의 값을 반환 아니면 기본 설정된 값을 반환|
 
 ex) result.add(map.getOrDefault(element,getEmpty(element);
