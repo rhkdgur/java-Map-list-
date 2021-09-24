@@ -57,9 +57,7 @@ return result;
                 for(int i = 0; i<list.size(); i++) {
                     if(element.equals((String)list.get(i).get("emdnm"))) {
                          resultmap.put("emdnm",(String)list.get(i).get("emdnm"));
-                         resultmap.put("count",String.valueOf(list.get(i).get("count")));
-                         resultmap.put("walistCnt",String.valueOf(list.get(i).get("walistCnt")));
-                         resultmap.put("warate",String.valueOf(list.get(i).get("warate")));
+                         resultmap.put("count",String.valueOf(list.get(i).get("count")));;
                          map.add(resultmap);
                         // flag = true;
                          break;
@@ -68,8 +66,6 @@ return result;
                 if(!flag) {
                      resultmap.put("emdnm",element);
                      resultmap.put("count","0");
-                     resultmap.put("walistCnt","0");
-                     resultmap.put("warate","0");
                      map.add(resultmap);
                 }
                 flag = false;
@@ -79,5 +75,5 @@ return result;
 +결과 
 |변수|값|
 |:---|---:|
-|list|[{'A',1},{'B',0},{'C',1},{'D',0},{'F',1}]
+|list|[{'A',1},{'B',0},{'C',1},{'D',0},{'F',1}]|
 -> 출력 속도는 비슷하겠지만 유지보수 하는 입장에서는 코드가 길어지면 문제가 될 수 있다.
