@@ -59,6 +59,7 @@ return result;
 <br>
 +map 함수 이용 안할 경우 코드
 ```C
+
   for(String element : areaList) {
             Map<String,String> resultmap = new HashMap<String,String>();
             if(list.size() > 0 && list != null) {
@@ -84,5 +85,6 @@ return result;
             }
         }
 ```
+
 +결과<br>
 출력 속도는 비슷하겠지만 유지보수 하는 입장에서는 코드가 길어지면 문제가 될 수 있다.
