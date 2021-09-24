@@ -49,15 +49,8 @@ for(String element : alpabet) {
     result.add(map.getOrDefault(element, getEmtpyMap(element)));
 }
 return result;
-```
 
-+결과 
-|변수|값|
-|:---|---:|
-|list|[{'A',1},{'B',0},{'C',1},{'D',0},{'F',1}]
-
-<br>
-+map 함수 이용 안할 경우 코드
+@map 함수 이용 안할 경우 코드
 ```C
 
   for(String element : areaList) {
@@ -85,6 +78,8 @@ return result;
             }
         }
 ```
-
-+결과<br>
-출력 속도는 비슷하겠지만 유지보수 하는 입장에서는 코드가 길어지면 문제가 될 수 있다.
++결과 
+|변수|값|
+|:---|---:|
+|list|[{'A',1},{'B',0},{'C',1},{'D',0},{'F',1}]
+-> 출력 속도는 비슷하겠지만 유지보수 하는 입장에서는 코드가 길어지면 문제가 될 수 있다.
