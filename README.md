@@ -10,7 +10,8 @@
 ex) result.add(map.getOrDefault(element,getEmpty(element);
 |이름|설명|
 |:---|---:|
-|getEmptyMap|사용자 설정 함수로 초기값으로 설정해 둔 함수|<br>
+|getEmptyMap|사용자 설정 함수로 초기값으로 설정해 둔 함수|
+
 ->map 안에 들어있는 값과 element 라는 list의 값을 비교하여<br>
 true 일 경우 element를 현재 맵의 값을 반환 <br>
 false 일 경우 getEmptyMap 값을 반환 <br>
