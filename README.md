@@ -29,7 +29,7 @@ false 일 경우 getEmptyMap 값을 반환 <br>
 
 비교 조건 : list 배열 안에 없는 alpabet의 변수를 초기값으로 지정하는 문제<br>
 <br>
-'''C
+```C
 
 @초기값 함수
 private Map getEmtpyMap(String element) {
@@ -48,15 +48,17 @@ for(String element : alpabet) {
     result.add(map.getOrDefault(element, getEmtpyMap(element)));
 }
 return result;
-'''
+```
 
 +결과 
-|list|[{'A',1},{'B',0},{'C',1},{'D',0},{'F',1}]<br>
+|변수|값|
+|:---|---:|
+|list|[{'A',1},{'B',0},{'C',1},{'D',0},{'F',1}]
 
 
 <br>
 +map 함수 이용 안할 경우 코드
-'''C
+```C
   for(String element : areaList) {
             Map<String,String> resultmap = new HashMap<String,String>();
             if(list.size() > 0 && list != null) {
@@ -81,6 +83,6 @@ return result;
                 flag = false;
             }
         }
-'''
+```
 +결과<br>
 출력 속도는 비슷하겠지만 유지보수 하는 입장에서는 코드가 길어지면 문제가 될 수 있다.
