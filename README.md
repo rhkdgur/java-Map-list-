@@ -51,8 +51,6 @@ for(String element : alpabet) {
 return result;
 
 @map 함수 이용 안할 경우 코드
-```C
-
   for(String element : areaList) {
             Map<String,String> resultmap = new HashMap<String,String>();
             if(list.size() > 0 && list != null) {
