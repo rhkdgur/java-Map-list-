@@ -1,5 +1,5 @@
+# Map list function
 # Map 활용하여 list 데이터 비교 처리 방법
-
 1. map 데이터 비교<br>
 
 함수<br>
